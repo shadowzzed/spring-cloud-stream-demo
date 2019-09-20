@@ -25,7 +25,7 @@ public class SpringCloudStreamDemoApplication {
 //        System.out.println(payload);
 //    }
 
-    @StreamListener(Processor.INPUT) // 监听名称为input的信道
+    @StreamListener(Processor.OUTPUT) // 监听名称为input的信道
     @SendTo(MyPipe.INPUT) // 发送至名称为out的信道上
     public String handle1(String value) {
         System.out.println("Received "+ value);
