@@ -2,7 +2,7 @@
 examples for spring-cloud-stream
 
 # notes 笔记
-# 入门
+## 入门
 ref-blog: https://www.cnblogs.com/hellxz/p/9396282.html
 ### 作用
 连接应用程序和中间件（MQ）<br>
@@ -20,3 +20,4 @@ ref-blog: https://www.cnblogs.com/hellxz/p/9396282.html
 * 都需要添加`@EnableBinding`在类上面
 
 ### 其他配置
+见博客底部 有道云笔记上有截图
